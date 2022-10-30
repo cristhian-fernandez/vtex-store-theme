@@ -1,0 +1,5 @@
+.flexRow--home__section--one {
+/* .flexRowContent--home__section--one { */
+    background-color: green;
+    color: blue;    /* no se va a aplicar*/
+}
