@@ -6,12 +6,12 @@
   "props":{
       "blockClass": "product__section--one"
   }
-  },
-  "rich-text#product__section--one": { 
-      "title": "Mi seccion productos",
-      "props": { 
-          "text": "Mi seccion productos",
-          "blockClass": "section__one--title"
-      }
   }
+  // "rich-text#product__section--one": { 
+  //     "title": "Mi seccion productos",
+  //     "props": { 
+  //         "text": "Mi seccion productos",
+  //         "blockClass": "section__one--title"
+  //     }
+  // }
 }
