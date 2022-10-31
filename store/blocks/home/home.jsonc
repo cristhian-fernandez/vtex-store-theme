@@ -1,16 +1,17 @@
 {
   "store.home": { 
     "blocks": [
+      "rich-text#home__container--text",
+      "rich-text#home__container--route",
+      "image#home__container--image",
+      "link#home__link--ancla",
+      "link#home__link--boton",
+      "link#home__link--info",
+      "slider-layout#home___slider--children",
+      "list-context.image-list#home__slider--list",
       "flex-layout.row#home__section--one",
-      "rich-text"
+      "flex-layout.row#home__section--two"
     ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": ":::VTEX Store Framework Exito:::",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
   }
+  
 }

@@ -3,3 +3,21 @@
     font-size: 20px;
     font-style: italic;
 }
+.container--home__route--text{
+    background-color: rgb(63, 89, 204);
+    color: #fff;
+    padding-left:100px;
+}
+
+.paragraph--home__link--buy{
+    width: 200px;
+    color: #fff;
+}
+.paragraph--section--one--title{
+    color: #fff;
+    margin: 0;
+}
+.paragraph--section--one--paragraph{
+    color: #fff;
+    margin: 0;
+}

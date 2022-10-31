@@ -1,0 +1,18 @@
+{
+    "rich-text#home__container--text": {
+        "title": "Text Principal", 
+        "props": { 
+          "text": ":::Tienda Online ShopStart:::",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-2"
+        }
+    },
+    "rich-text#home__container--route": {
+        "title": "Route Principal", 
+        "props": { 
+          "text": "Inicio / Productos",
+          "blockClass": "home__route--text"
+        }
+    }
+}

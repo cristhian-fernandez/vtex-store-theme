@@ -1,0 +1,9 @@
+.paginationDotsContainer--home__slider{
+    transform: translateY(20px);
+}
+.sliderLayoutContainer--home__slider{
+    margin: 0 auto 50px;
+}
+.imageElement--home__slider{
+    max-height: initial !important;
+}

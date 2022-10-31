@@ -3,3 +3,8 @@
     background-color: green;
     color: blue;    /* no se va a aplicar*/
 }
+
+.flexCol--section__two--item-2 :global(.vtex-store-link-0-x-link){
+    background-color: green;
+    border: 1px solid red;
+}

@@ -1,0 +1,117 @@
+{
+    "rich-text#home__section--one": { 
+        "title": "Mi seccion 1",
+        "props": { 
+        //   "text": ":::VTEX SLIDER SECTION ONE:::",
+        //   "textAlignment": "CENTER",
+        //   "textPosition": "CENTER",
+        //   "font": "t-heading-1",
+            "text": "::::__Mi seccion one::::",
+            "blockClass": "section__one--title"
+        }
+    },
+    "slider-layout#home___slider--children" :{
+        "title": "Slider con Children",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "blockClass" : "home__slider",
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            }
+        },
+        "children": [
+            "flex-layout.row#home__slider-zero",
+            "image#home__slider--one",
+            "image#home__slider--two",
+            "image#home__slider--three"
+        ]
+    },
+    "image#home__slider--one":{
+        "props": {
+            "src": "assets/img/main-slide-1.jpg"
+        }
+    },
+    "image#home__slider--two":{
+        "props": {
+            "src": "assets/img/main-slide-2.jpg"
+        }
+    },
+    "image#home__slider--three":{
+        "props": {
+            "src": "assets/img/main-slide-3.jpg"
+        }
+    },
+    "flex-layout.row#home__slider-zero":{
+       "children": [
+        "flex-layout.col#home__slider-zero"
+       ] 
+    },
+    "flex-layout.col#home__slider-zero":{
+        "children": [
+            "image#home__slider--ofert",
+            "rich-text#test"
+        ]
+    },
+    "image#home__slider--ofert":{
+        "title": "Imagen Slider Oferta",
+        "props":{
+            "src": "https://mercury.vteximg.com.br/arquivos/ids/10073730/21_10_desktop_coleccion.jpg?v=638021781776530000",
+            "title" : "Imagen de Promocion"
+        }
+    },
+    "rich-text#test":{
+        "props": {
+            "text": "Ver Oferta",
+            "textPosition": "CENTER"
+        }
+    },
+    "list-context.image-list#home__slider--list":{
+        "title": "Lista de Imagenes con Context",
+        "children": [
+            "slider-layout#home__slider--list"
+        ],
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "image": "assets/img/main-slide-1.jpg",
+                    "description": "Slide Imagen 1"
+                },
+                {
+                    "image": "assets/img/main-slide-2.jpg",
+                    "description": "Slide Imagen 2"
+                },
+                {
+                    "image": "assets/img/main-slide-3.jpg",
+                    "description": "Slide Imagen 3"
+                },
+                {
+                    "image": "assets/img/main-slide-2.jpg",
+                    "description": "Slide Imagen 4"
+                }
+            ]
+        }
+    },
+    "slider-layout#home__slider--list":{
+        "title": "Slider con List context",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "blockClass" : "home__slider",
+            "autoplay": {
+                "timeout": 3000,
+                "stopOnHover": true
+            }
+        }
+    }
+}
